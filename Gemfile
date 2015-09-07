@@ -33,6 +33,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
 gem 'kaminari'
 
+# Rails forms made easy
+gem 'simple_form'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
