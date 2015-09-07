@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 # bootstrap-sass is a Sass-powered version of Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
 
+# A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
+gem 'kaminari'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
