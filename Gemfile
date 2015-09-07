@@ -7,7 +7,7 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -28,13 +28,16 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # bootstrap-sass is a Sass-powered version of Bootstrap
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '3.3.5.1'
 
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
 gem 'kaminari'
 
 # Rails forms made easy
 gem 'simple_form'
+
+#  Rack-based asset packaging system
+gem 'sprockets', '2.11.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
