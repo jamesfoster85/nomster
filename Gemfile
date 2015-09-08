@@ -36,11 +36,17 @@ gem 'kaminari'
 # Rails forms made easy
 gem 'simple_form'
 
-#  Rack-based asset packaging system
+# Rack-based asset packaging system
 gem 'sprockets', '2.11.0'
 
-#  Flexible authentication solution for Rails with Warden.
+# Flexible authentication solution for Rails with Warden.
 gem 'devise', '>= 3.2.4'
+
+# Complete Ruby geocoding solution
+gem 'geocoder'
+
+# Simple Rails app configuration
+gem "figaro", ">= 1.0.0"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
