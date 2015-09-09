@@ -48,6 +48,9 @@ gem 'geocoder'
 # Simple Rails app configuration
 gem "figaro", ">= 1.0.0"
 
+# Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
+gem 'carrierwave'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
