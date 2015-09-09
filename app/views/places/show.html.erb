@@ -27,6 +27,14 @@
 
 	<br />
 
+	<% @place.photos.each do |photo| %>
+	<div class="col-xs-12 col-sm-6">
+		<%= photo.caption %>
+	</div>
+<% end %>
+
+	<br />
+
 	<div class="pull-right">
 		<% if current_user && current_user == @place.user %>
 			<%= link_to 'Edit', edit_place_path(@place), :class => 'btn btn-primary' %>
