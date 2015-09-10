@@ -51,6 +51,8 @@ gem "figaro", ">= 1.0.0"
 # Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
 gem 'carrierwave'
 
+gem "fog", "~> 1.3.1"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
