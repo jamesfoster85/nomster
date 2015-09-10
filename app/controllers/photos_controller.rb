@@ -6,6 +6,7 @@ class PhotosController < ApplicationController
 		if @place.user != current_user
 			return render :text => 'Not Allowed', :status => :forbidden
 		end
+
 		@place.photos.create(photo_params)
 		redirect_to place_path(@place)
 	end
