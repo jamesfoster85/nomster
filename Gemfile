@@ -53,6 +53,9 @@ gem 'carrierwave'
 
 gem "fog", "~> 1.3.1"
 
+# A library for setting up Ruby objects as test data.
+gem "factory_girl_rails", "~> 4.0"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
